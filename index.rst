@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to OpenACalendar's documentation for Super Users!
-=========================================
+=========================================================
 
 Welcome.
 
@@ -12,5 +12,26 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   
+   singleSiteOrMultiSiteMode
+   systemAdministratorWebUI
+   duplicateData
+   purgeData
+   requirements
+   install
+   upgrading
+   cron
+   config
+   extensions
+   extensionAddressCodeGBOpenCodePoint
+   extensionContact
+   extensionCuratedLists
+   extensionDisplayBoard
+   extensionFacebook
+   extensionMeetup
+   webAPI1
+   webAPI2
+   cliAPI1   
+   
 
 
