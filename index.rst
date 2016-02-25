@@ -32,6 +32,7 @@ Contents:
    webAPI1
    webAPI2
    cliAPI1   
+   webAssets
    
 
 
