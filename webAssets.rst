@@ -20,17 +20,32 @@ During compilation, assets with the same name in an extension will override asse
 Theme variables
 ---------------
 
-These can be set in a file in the core, or as part of any extension.
+These can be set in the following places:
 
-These can be found in "/core/theme/<themename>/variables.ini" or "/extension/<extensionname>/theme/<themename>/variables.ini".
-
-Variables with the same name in an extension will override variables in the core. In this way, extensions can alter the assets.
+  *  in "/core/theme/<themename>/variables.ini" 
+  *  in "/extension/<extensionname>/theme/<themename>/variables.ini".
+  *  in the config variable "themeVariables"
+  
+If there are variables with the same name, the value from the later place in the list will be used. In this way, extensions and the config can alter the assets.
 
 Variables are used:
 
   *  They are automatically available as variables in LESS when CSS is complied.
   *  When emails are sent, the variables are loaded into variables in Twig so Twig templates can style the emails.
 
+After changing Theme Variables, you need to run the compilation process again. If you have changed the Theme Variables, you should also run the compilation process after upgrading.
+
+Here is an example of setting theme variables in the config:
+
+.. code-block:: php
+
+    $CONFIG->themeVariables['default'] = array(
+    	'colourMain'=>'#AF6F6F',
+    	'colourDarker1'=>'#8D4D4D',
+    	'colourDarker2'=>'#732C2C',
+    	'colourLighter1'=>'#D29D9D',
+    	'colourLighter2'=>'#FDD9D9',
+    );   
    
 Compiling assets
 ----------------

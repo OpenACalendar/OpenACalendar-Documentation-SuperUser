@@ -18,6 +18,8 @@ On servers not in Debug mode, delete the existing cached templates. These are
 found in "cache/templates.cli" and "cache/templates.web". (It doesn't hurt to 
 do this on debug servers so if in doubt, just do it.)
 
+If you have changed theme variables, you should :doc:`run the web asset compilation procedure again<webAssets>`.
+
 Assets Version and Browser Caching
 ----------------------------------
 
