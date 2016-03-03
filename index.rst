@@ -29,6 +29,7 @@ Contents:
    extensionDisplayBoard
    extensionFacebook
    extensionMeetup
+   writingAnExtension
    webAPI1
    webAPI2
    cliAPI1   
