@@ -37,4 +37,14 @@ For example
 
 You can new edit the file extension/Sample/theme/default/templates/site/index/index.html.twig to change the front page of the site!
 
+You may particularly want to do this for the privacy and terms and conditions pages, which by default just say "TODO".
+
+
+.. code-block:: bash
+
+    mkdir -p extension/Sample/theme/default/templates/index/index
+    cp core/theme/default/templates/index/index/privacy.html.twig  extension/Sample/theme/default/templates/index/index
+    cp core/theme/default/templates/index/index/terms.html.twig  extension/Sample/theme/default/templates/index/index
+    
+
 
