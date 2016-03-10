@@ -19,6 +19,7 @@ Contents:
    purgeData
    requirements
    install
+   installMessageQue
    upgrading
    cron
    config

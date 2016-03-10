@@ -6,6 +6,8 @@ Upgrade procedure
 
 We recommend you take a full backup of the database and files before upgrading.
 
+If you have any message ques running, :doc:`make sure you read the notes there about upgrading<installMessageQue>`.
+
 Place the new files over the old ones. (If you have had to change any 
 "localConfig.php" files to accomodate your webserver, be careful to preserve 
 the changes.
