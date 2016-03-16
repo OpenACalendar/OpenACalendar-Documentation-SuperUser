@@ -20,7 +20,7 @@ To use Beanstalkd, simply configure the options:
     $CONFIG->useBeanstalkd = true;
     $CONFIG->beanstalkdHost = 'localhost';
     $CONFIG->beanstalkdPort = 11300;
-    $CONFIG->beanstalkdTube = 'opentechcalendar';
+    $CONFIG->beanstalkdTube = 'openacalendar';
 
 Running a Message Que consumer
 ------------------------------
