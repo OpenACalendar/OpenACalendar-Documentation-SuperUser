@@ -27,8 +27,13 @@ create during installation will be a sysadmin. This user can make other users a
 sysadmin using the sysadmin interface.
 
 On accesing the interface, for extra security the user has to enter passwords again.
-As well as the users normal password, an additional password is required to access 
-the Sysadmin UI. It is set in config.php.
+As well as the users normal password, an additional password is required to access
+the Sysadmin UI. It is set in config.php in the sysAdminExtraPassword option.
+
+.. code-block:: php
+
+    $CONFIG->sysAdminExtraPassword = 'qwerty';
+
 
 Finding Slug
 ------------
