@@ -30,6 +30,8 @@ for assets, such as images, CSS and JS. This should help speed up subsequent pag
 
 However when you update, you must make sure users get the latest version of all assets. Do this using the config variable.
 
+.. code-block:: php
+
     $CONFIG->assetsVersion = 1
 
 This is appended to the end of all requests. Set this to 1 on a new install and increase the value by 1 
