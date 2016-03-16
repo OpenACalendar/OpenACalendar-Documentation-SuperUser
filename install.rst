@@ -22,6 +22,16 @@ to create your first user.
 Run the PHP script "core/cli/createSite.php SLUG EMAIL" where slug is something 
 like "site". (If the site will always be used in Single Site mode the slug does not matter.)
 
+.. code-block:: bash
+
+    cp config.php.dist config.php
+    vi config.php
+    php core/cli/upgradeDatabase.php
+    php core/cli/loadStaticData.php
+    php core/cli/createUser.php sam sam@example.com b7ut9U6d sysadmin
+    php core/cli/createSite.php site sam@example.com
+
+
 The folder "webSingleSite" must be served by the webserver. Enable SSL if possible. 
 Note there is an .htaccess file in there that Apache must use.
 
@@ -36,7 +46,7 @@ You will notice that the code has a filesystem where the webroot is under other 
 We realise this may make it hard to install on some hosts. You can change the folders 
 around so all code is under the web root.
 
-In "webSingleSite", create the folder "oacapp". For security reasons, set up apache not to serve 
+In "webSingleSite", create the folder "oacapp". For security reasons, set up your web server not to serve 
 this folder using an .htaccess file or other method. 
 
 Move all folders except "webSingleSite" underneath your new "oacapp" folder.
@@ -64,6 +74,7 @@ The folder "webSite" must be served by the webserver, on a name that allows any
 subdomain to reach it (eg "*.example.com").
 
 There must be a common domain between them (eg in this case, it's "example.com"). This is because cookies are shared among them.
+
 
 Let's go!
 ^^^^^^^^^
