@@ -18,10 +18,15 @@ It should be your domain name in reverse with an extension part at the end - our
 
 This will create a bunch of files and folders, and give you instructions on activating the extension by adding it to your config.php.
 
-Developing templates
---------------------
+Develop in debug mode
+---------------------
 
-When actively developing templates, it is best to keep your install in debug mode by setting this in config.php.
+When actively developing extensions, it is best to keep your install in debug mode by setting this in config.php.
+
+.. code-block:: php
+
+    $CONFIG->isDebug = true;
+
 
 Overriding a template in your extension
 ---------------------------------------
