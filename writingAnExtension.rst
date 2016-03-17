@@ -4,8 +4,9 @@ Writing An Extension
 Creating the basic Extension
 ----------------------------
 
+First, run "composer install" in the "build" folder to get libraries that are not shipped with the app.
 
-Run the command
+Then run the command
 
 .. code-block:: bash
 
