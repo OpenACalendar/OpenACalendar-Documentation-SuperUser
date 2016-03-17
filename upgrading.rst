@@ -26,16 +26,15 @@ Assets Version and Browser Caching
 ----------------------------------
 
 There are Apache config files included in the software that turn on browser caching 
-for assets, such as images, CSS and JS. This should help speed up subsequent page loads for users. 
+for assets, such as images, CSS and JS. This should help speed up subsequent page loads for users. However when you update, you must make sure users get the latest version of all assets. To do this, the asset version must be incremented.
 
-However when you update, you must make sure users get the latest version of all assets. Do this using the config variable.
+Your config.php should contain this variable:
 
 .. code-block:: php
 
     $CONFIG->assetsVersion = 1
 
-This is appended to the end of all requests. Set this to 1 on a new install and increase the value by 1 
-every time you upgrade.
+This is set to 1 by default - increase it by 1 every time you perform an upgrade.
 
 Minimising downtime when upgrading - Database upgrades
 ------------------------------------------------------
