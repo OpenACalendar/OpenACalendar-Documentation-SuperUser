@@ -14,3 +14,12 @@ It has currently been tested on Linux webservers only, tho it may be possible
 to get it working on Windows servers.
 
 PHP 7 support has not been fully tested yet.
+
+
+For developers
+--------------
+
+If you want to develop the core software or an extension, you will need some other software:
+
+  *  Composer - https://getcomposer.org/
+  
