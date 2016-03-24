@@ -72,7 +72,7 @@ It should contain:
 .. code-block:: php
 
     <?php
-    $app->match('/askmarc', "org\openacalendar\sample\controllers\IndexController::askMarc");
+    $app->match('/askmarc', 'org\openacalendar\sample\controllers\IndexController::askMarc');
 
 This links the URL to the controller, which should be placed in "extension/Sample/php/org/openacalendar/sample/controllers/IndexController.php" and contain:
 
