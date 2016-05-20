@@ -240,8 +240,28 @@ sysAdminLogInTimeOutSeconds
 
 Number.
 
+Analytics
+---------
 
+Built-in vars for adding web analytics to a calendar
 
+piwikServerHTTP
+^^^^^^^^^^^^^^^
+
+piwikServerHTTPS
+^^^^^^^^^^^^^^^^
+
+String - (If using Piwik Analytics) The URL for the Piwik Server
+
+piwikSiteID
+^^^^^^^^^^^
+
+String - (If using Piwik Analytics) The SiteID token for this site in Piwik Analytics
+
+googleAnalyticsTracking
+^^^^^^^^^^^^^^^^^^^^^^^
+
+String - (If using Google Web Analytics) The SiteID token for this site in Google Web Analytics
 
 New Sites
 ---------
