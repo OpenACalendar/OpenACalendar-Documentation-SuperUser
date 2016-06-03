@@ -9,6 +9,8 @@ Images, CSS and JavaScript can all be part of the Core code, or part of any exte
 
 Such files are in "/core/theme/<themename>/" or "/extension/<extensionname>/theme/<themename>/"
 
+.. _web-assets-build-process-compile-targets:
+
 They are compiled by a build process into one of:
 
    *  /webIndex/theme/<themename>
@@ -58,7 +60,7 @@ You may need to edit "build/localConfig.php" if you have moved parts of the appl
 
 Then simply run "php build.php".
 
-The results are automatically placed in the correct web folders.
+The results are automatically placed in :ref:`the correct web folders<web-assets-build-process-compile-targets>`.
 
 The results are portable; for a given set of extensions and configuration you can compile the assets on a dev machine then move them to production server.
 
