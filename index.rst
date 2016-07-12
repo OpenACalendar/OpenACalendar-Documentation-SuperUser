@@ -29,6 +29,7 @@ Contents:
    extensionCuratedLists
    extensionDisplayBoard
    extensionFacebook
+   extensionMapbox
    extensionMeetup
    writingAnExtension
    webAPI1

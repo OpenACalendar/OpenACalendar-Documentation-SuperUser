@@ -15,6 +15,10 @@ to get it working on Windows servers.
 
 PHP 7 support has not been fully tested yet.
 
+The core code will use Open Street Map servers directly. 
+Note this is subject to an `Tile usage policy <http://wiki.openstreetmap.org/wiki/Tile_usage_policy>`_ 
+and if your site has heavy traffic, you should use another map provider. 
+See one of the mapping extensions, such as :doc:`Mapbox<extensionMapbox>`
 
 For developers
 --------------
