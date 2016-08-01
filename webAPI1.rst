@@ -96,11 +96,6 @@ Slug should be the number only eg /group/1-the-best should become 1.
 Country code is the 2 character code eg GB.
 
 
-Parameters
-^^^^^^^^^^
-
-
-  *  eventidconfig  See above
 
 List Events in JSON and JSONP format
 ------------------------------------
