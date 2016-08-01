@@ -64,8 +64,8 @@ Your config.php should contain this variable:
 This is set to 1 by default - increase it by 1 every time you perform an upgrade.
 
 
-Take out off read only mode
----------------------------
+Turn off read only mode
+-----------------------
 
 Set
 
