@@ -2,7 +2,7 @@ Requirements
 ============
 
 
-  *  PHP 5.4, 5.5 or 5.6
+  *  PHP 7.0 or higher
   *  PHP Extension - CURL for importing events
   *  PHP Extension - GD for image manipulation
   *  Postgresql
@@ -10,10 +10,11 @@ Requirements
   *  Command line access
   *  Cron
 
-It has currently been tested on Linux webservers only, tho it may be possible 
-to get it working on Windows servers.
+The requirement for PHP 7.0 or higher was introduced in version 2.0 of this app. If this is a problem for you, 
+please check version 1.7, which supports PHP 5.4, 5.5 and 5.6.
 
-PHP 7 support has not been fully tested yet.
+It has currently been tested on Linux webservers only, but it may be possible 
+to get it working on Windows servers.
 
 The core code will use Open Street Map servers directly. 
 Note this is subject to an `Tile usage policy <http://wiki.openstreetmap.org/wiki/Tile_usage_policy>`_ 
