@@ -12,7 +12,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   
+
    singleSiteOrMultiSiteMode
    systemAdministratorWebUI
    duplicateData
@@ -33,9 +33,5 @@ Contents:
    extensionMeetup
    writingAnExtension
    webAPI1
-   webAPI2
-   cliAPI1   
+   cliAPI1
    webAssets
-   
-
-
